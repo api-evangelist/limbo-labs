@@ -1,19 +1,59 @@
 aid: limbo-labs
-name: Limbo Labs
-description: Limbo Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/limbo-labs.png
+name: Limbo Labs (limbolabs.com)
+description: >-
+  Limbo Labs was, in its own words, "a small technical team in san francisco" whose
+  products were to "begin launching in july 2010". The company surfaced in the 500 Global
+  portfolio listing and was added to the API Evangelist network as a lead. Enrichment
+  found no company to enrich: limbolabs.com carried a single-page placeholder from 2010
+  through roughly 2015 and never grew past it — an Internet Archive enumeration of the
+  domain returns only eleven distinct captured URLs, all of them the one landing page
+  plus its stylesheets, jQuery and four images. No product, developer portal, API
+  reference, OpenAPI or Swagger document, SDK or machine-readable specification was ever
+  published or archived. By 2018 the domain served a JavaScript-wall parking page, and it
+  now redirects to an Afternic "for sale" lander, so the brand is retired. The website URL
+  carried on the inbound 500 Global portfolio record, readyforzero.com, is a mis-joined
+  row: it belongs to ReadyForZero, a separate 500 Global personal-finance company, and it
+  no longer resolves. This profile is retained as a historical, defunct-provider record
+  with no active API surface.
 url: https://raw.githubusercontent.com/api-evangelist/limbo-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-note: >-
+  limbolabs.com redirects to an Afternic domain-sale lander; no successor company or
+  acquirer was identified.
+x-headquarters: San Francisco, California, United States
+x-api-surface: none
+x-enrichment-note: >-
+  Inbound portfolio record listed https://readyforzero.com as the website; that domain is
+  NXDOMAIN and belongs to a different 500 Global company (ReadyForZero). Corrected to the
+  company's own historical domain, limbolabs.com.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defunct
+- Startup
+- San Francisco
+- Venture Backed
+- Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +62,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://readyforzero.com
+  url: https://limbolabs.com
+- type: Lifecycle
+  url: lifecycle/limbo-labs-lifecycle.yml
+- type: DomainSecurity
+  url: security/limbo-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
