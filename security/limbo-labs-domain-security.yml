@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: limbolabs.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jul 30 18:47:53 2026 GMT
+  hsts: false
+domains:
+- domain: limbolabs.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

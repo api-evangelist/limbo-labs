@@ -1,0 +1,78 @@
+generated: '2026-07-19'
+method: probed
+source: >-
+  Live DNS/TLS/HTTP probes of limbolabs.com plus Internet Archive CDX enumeration and the
+  capture http://web.archive.org/web/20140517184852/http://limbolabs.com/
+status: defunct
+summary: >-
+  Limbo Labs was a small San Francisco technical team that put a one-page placeholder on
+  limbolabs.com announcing products would "begin launching in july 2010". The placeholder
+  never changed into a product site, no API or developer surface was ever published, and
+  the domain is now parked and listed for sale. No successor or acquirer was identified.
+company:
+  brand: Limbo Labs
+  headquarters: San Francisco, California, United States
+  self_description: >-
+    "limbo labs is a small technical team in san francisco. our products are simple and
+    begin launching in july 2010. now you know."
+  evidence: http://web.archive.org/web/20140517184852/http://limbolabs.com/
+  backed_by:
+  - 500-global
+successor: null
+timeline:
+- date: '2010-05-08'
+  event: Earliest Internet Archive capture of limbolabs.com (HTTP 403).
+  source: https://web.archive.org/cdx/search/cdx?url=limbolabs.com
+- date: '2011-02-02'
+  event: >-
+    First archived 200 of the single-page placeholder announcing a San Francisco technical
+    team with products launching July 2010.
+  source: http://web.archive.org/web/20110202142354/http://limbolabs.com/
+- date: '2014-05-17'
+  event: >-
+    Placeholder still unchanged after four years — same copy, same two images, no product,
+    no navigation, no developer surface.
+  source: http://web.archive.org/web/20140517184852/http://limbolabs.com/
+- date: '2018-08-06'
+  event: >-
+    Site content replaced by a JavaScript/cookie-wall parking interstitial; the Limbo Labs
+    placeholder is gone.
+  source: http://web.archive.org/web/20180806163919/http://limbolabs.com/
+- date: '2019-07-24'
+  event: Root begins returning 301, then 302 by December 2021 — domain in redirect/parking.
+  source: https://web.archive.org/cdx/search/cdx?url=limbolabs.com
+- date: '2026-07-19'
+  event: >-
+    Probed: limbolabs.com resolves (13.248.169.48) and serves a redirect stub to a "/lander"
+    domain-sale page, ultimately Afternic/GoDaddy aftermarket listing
+    https://www.afternic.com/forsale/limbolabs.com. TLS is valid (TLSv1.3, cert expiring
+    2026-07-30) but belongs to the parking service, not to Limbo Labs.
+  source: live HTTP/TLS probe
+api_surface:
+  present: false
+  evidence: >-
+    An Internet Archive CDX enumeration of limbolabs.com returned only 11 distinct captured
+    URLs across the domain's entire history: the root page, robots.txt, favicon.ico, four
+    images, three stylesheets and one jQuery bundle. There is no developer portal, API
+    reference, OpenAPI/Swagger document, GraphQL or AsyncAPI surface, SDK path, or any
+    documentation path in the archive. The site was a single placeholder page for its whole
+    lifetime.
+well_known:
+  present: false
+  evidence: >-
+    /.well-known/security.txt, /openid-configuration, /oauth-authorization-server,
+    /api-catalog and /ai-plugin.json each return HTTP 200 on limbolabs.com, but every one
+    serves the identical parking redirect stub, as does an arbitrary nonexistent control
+    path. These are soft-404s, not published discovery documents, so none were harvested.
+llms_txt:
+  present: false
+  evidence: >-
+    https://limbolabs.com/llms.txt returns a real llms.txt, but it is published by the
+    GoDaddy domain-aftermarket parking service and describes the domain listing for sale —
+    not the Limbo Labs company. Not harvested and not wired as a provider artifact.
+versioning_policy: null
+deprecation_policy: null
+sunset_headers: null
+sla: null
+status_page: null
+changelog: null
