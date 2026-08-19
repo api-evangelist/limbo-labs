@@ -44,7 +44,7 @@ x-enrichment-note: >-
   Inbound portfolio record listed https://readyforzero.com as the website; that domain is
   NXDOMAIN and belongs to a different 500 Global company (ReadyForZero). Corrected to the
   company's own historical domain, limbolabs.com.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
