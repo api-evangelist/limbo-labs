@@ -61,14 +61,12 @@ modified: '2026-07-19'
 tags:
 - Company
 - Defunct
-- Startups
 - San Francisco
 - Venture Backed
 - Software
 tags_raw:
 - Company
 - Defunct
-- Startup
 - San Francisco
 - Venture Backed
 - Software
@@ -90,3 +88,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Venture Backed"
