@@ -64,28 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct — no API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Limbo Labs was, in its own words, "a small technical team in san francisco" whose products
-were to "begin launching in july 2010". It surfaced in the 500 Global portfolio listing and
-was added to the API Evangelist network as a lead.
+Limbo Labs was, in its own words, "a small technical team in san francisco" whose products were to "begin launching in july 2010". The company surfaced in the 500 Global portfolio listing and was added to the API Evangelist network as a lead. Enrichment found no company to enrich: limbolabs.com carried a single-page placeholder from 2010 through roughly 2015 and never grew past it — an Internet Archive enumeration of the domain returns only eleven distinct captured URLs, all of them the one landing page plus its stylesheets, jQuery and four images. No product, developer portal, API reference, OpenAPI or Swagger document, SDK or machine-readable specification was ever published or archived. By 2018 the domain served a JavaScript-wall parking page, and it now redirects to an Afternic "for sale" lander, so the brand is retired. The website URL carried on the inbound 500 Global portfolio record, readyforzero.com, is a mis-joined row: it belongs to ReadyForZero, a separate 500 Global personal-finance company, and it no longer resolves. This profile is retained as a historical, defunct-provider record with no active API surface.
 
-Enrichment found no company to enrich. limbolabs.com carried a single-page placeholder from
-2010 through roughly 2015 and never grew past it — an Internet Archive enumeration of the
-domain returns only eleven distinct captured URLs, all of them that one landing page plus
-its stylesheets, jQuery and four images. No product, developer portal, API reference,
-OpenAPI/Swagger document, SDK or machine-readable specification was ever published or
-archived. By 2018 the domain served a parking interstitial, and it now redirects to an
-Afternic domain-sale lander.
+**Areas:** Company · Defunct · San Francisco · Software
 
-The website URL on the inbound 500 Global portfolio record, `readyforzero.com`, is a
-mis-joined row: it belongs to ReadyForZero, a separate 500 Global personal-finance company,
-and it no longer resolves. Corrected here to the company's own historical domain.
+## Limbo Labs (limbolabs.com) on APIs.io (historical record)
 
-Backed by: 500-global — https://limbolabs.com
+Everything profiled for Limbo Labs (limbolabs.com) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/limbo-labs/](https://apis.io/providers/limbo-labs/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `lifecycle/limbo-labs-lifecycle.yml` — defunct-provider record, timeline, and the
-  evidence that no API surface ever existed.
-- `security/limbo-labs-domain-security.yml` — live TLS/DNS posture of the parked domain.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Limbo Labs Domain Security](https://apis.io/security/limbo-labs/limbo-labs-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://limbolabs.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Limbo Labs (limbolabs.com): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/limbo-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
